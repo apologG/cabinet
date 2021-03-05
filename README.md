@@ -8,6 +8,7 @@ https://medium.com/@rowadz/monitoring-mysql-data-changes-in-real-time-via-nodejs
 
 
 Repositories:
+
 https://github.com/apologG/cabinet.git
 
 
@@ -32,7 +33,6 @@ ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY 'password';
 flush privileges;
 
 exit
-
 
 =====================
 
