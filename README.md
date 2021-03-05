@@ -40,14 +40,17 @@ exit
 to run applications:
 Cabinet:
 
-
 npm i
+
 sequelize db:create
+
 sequelize db:migrate
+
 npm run dev
+
 
 Agent:
 
-
 npm i
+
 npm start
