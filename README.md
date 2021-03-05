@@ -38,6 +38,9 @@ exit
 
 
 to run applications:
+
+*******************
+
 Cabinet:
 
 npm i
@@ -48,6 +51,7 @@ sequelize db:migrate
 
 npm run dev
 
+*******************
 
 Agent:
 
