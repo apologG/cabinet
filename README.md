@@ -18,6 +18,7 @@ https://github.com/apologG/agent.git
 *******************
 
 Manual:
+
 do before run:
 
 install docker
@@ -30,8 +31,6 @@ docker ps
 
 docker exec -it container_id mysql -u root -p
 
-*******************
-
 in MYSQL Workbench:
 
 ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY 'password';
@@ -42,10 +41,7 @@ exit
 
 *******************
 
-
 to run applications:
-
-*******************
 
 Cabinet:
 
@@ -56,8 +52,6 @@ sequelize db:create
 sequelize db:migrate
 
 npm run dev
-
-*******************
 
 Agent:
 
