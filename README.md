@@ -6,7 +6,7 @@ Repositories:
 https://github.com/apologG/cabinet.git
 https://github.com/apologG/agent.git
 
-Manual:
+Manual:/
 do before run:
 install docker
 run mysql and configure:
@@ -14,12 +14,12 @@ docker run --rm --name=my-mysql --env  MYSQL_ROOT_PASSWORD=password -e MYSQL_ROO
 docker ps
 docker exec -it container_id mysql -u root -p
 
-in MYSQL Workbench:
+in MYSQL Workbench:/
 ALTER USER 'root' IDENTIFIED WITH mysql_native_password BY 'password';
 flush privileges;
 exit
 
-=====================
+=====================/
 to run applications:
 Cabinet:
 npm i
