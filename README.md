@@ -6,6 +6,7 @@ https://medium.com/@Volirik/%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1
 
 https://medium.com/@rowadz/monitoring-mysql-data-changes-in-real-time-via-nodejs-binary-logs-c379720c0333
 
+*******************
 
 Repositories:
 
@@ -14,17 +15,22 @@ https://github.com/apologG/cabinet.git
 
 https://github.com/apologG/agent.git
 
+*******************
 
 Manual:
 do before run:
+
 install docker
+
 run mysql and configure:
+
 docker run --rm --name=my-mysql --env  MYSQL_ROOT_PASSWORD=password -e MYSQL_ROOT_HOST=% --detach --publish 3306:3306 -d mysql/mysql-server:latest
 
 docker ps
 
 docker exec -it container_id mysql -u root -p
 
+*******************
 
 in MYSQL Workbench:
 
@@ -34,7 +40,7 @@ flush privileges;
 
 exit
 
-=====================
+*******************
 
 
 to run applications:
